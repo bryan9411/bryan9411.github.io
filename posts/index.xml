@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Bryan Blog</title>
+    <link>https://bryan9411.github.io/posts/</link>
+    <description>Recent content in Posts on Bryan Blog</description>
+    <image>
+      <title>Bryan Blog</title>
+      <url>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 08 Nov 2023 22:39:26 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seven</title>
+      <link>https://bryan9411.github.io/posts/seven/</link>
+      <pubDate>Wed, 08 Nov 2023 22:39:26 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/seven/</guid>
+      <description>first interface TDKFormProps { // ... validation: { title?: boolean } // ... } interface TDKFormProps { // ... validation: { title?: boolean } // ... } interface TDKFormProps { // ... validation: { title?: boolean } // ... } Second interface TDKFormProps { // ... validation: { title?: boolean } // ... } interface TDKFormProps { // ... validation: { title?: boolean } // ... } Third interface TDKFormProps</description>
+    </item>
+    
+    <item>
+      <title>GraphQL 與 RESTful API 差異</title>
+      <link>https://bryan9411.github.io/posts/graphql-01/</link>
+      <pubDate>Wed, 08 Nov 2023 21:49:00 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/graphql-01/</guid>
+      <description>再介紹 GraphQL 之前要先介紹一下過去我們常用串 api 的方式 RESTful API。 RESTful API RESTful API 它是一種架構風格，使用標準的 HTTP 方法 ，例如：GET、POST、PUT、DELE</description>
+    </item>
+    
+    <item>
+      <title>Sec Archives</title>
+      <link>https://bryan9411.github.io/posts/sec-archives/</link>
+      <pubDate>Wed, 08 Nov 2023 21:17:32 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/sec-archives/</guid>
+      <description>ff</description>
+    </item>
+    
+    <item>
+      <title>My Third Post</title>
+      <link>https://bryan9411.github.io/posts/my-third-post/</link>
+      <pubDate>Tue, 07 Nov 2023 21:48:41 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/my-third-post/</guid>
+      <description>Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
