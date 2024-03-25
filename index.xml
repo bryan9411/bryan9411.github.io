@@ -31,12 +31,21 @@
     </item>
     
     <item>
+      <title>常用 git 指令 (二)</title>
+      <link>https://bryan9411.github.io/posts/git-02/</link>
+      <pubDate>Wed, 08 Nov 2023 21:17:32 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/git-02/</guid>
+      <description>再上篇文章 常用 git 指令 (一) 介紹到一些基本 git 指令，但還有更多實用的指令 👇 amend git commit --amend 如果這次修改只是增加註解或者刪除多餘 log 之類的，並沒有其他功能，</description>
+    </item>
+    
+    <item>
       <title>常用 git 指令 (一)</title>
       <link>https://bryan9411.github.io/posts/git-01/</link>
       <pubDate>Tue, 07 Nov 2023 21:48:41 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-01/</guid>
-      <description>作為一個開發者，在職場上使用 Git 是必不可少的技能。它是一個版本控制系統，可以幫助你追蹤程式碼變化、管理版本、合作開發，是團隊協作中不可或缺的工</description>
+      <description>再開發上使用 Git 是必不可少的技能。它是一個版本控制系統，可以幫助你追蹤程式碼變化、管理版本、合作開發，是團隊協作中不可或缺的工具之一。 以下是一</description>
     </item>
     
   </channel>
