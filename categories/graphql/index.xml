@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 08 Nov 2023 21:49:00 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 21:49:00 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/graphql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GraphQL 與 RESTful API 差異</title>
+      <title>GraphQL: GraphQL 與 RESTful API 差異</title>
       <link>https://bryan9411.github.io/posts/graphql-01/</link>
-      <pubDate>Wed, 08 Nov 2023 21:49:00 +0800</pubDate>
+      <pubDate>Mon, 20 Nov 2023 21:49:00 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/graphql-01/</guid>
       <description>再介紹 GraphQL 之前要先介紹一下過去我們常用串 api 的方式 RESTful API。 RESTful API RESTful API 它是一種架構風格，使用標準的 HTTP 方法 ，例如：GET、POST、PUT、DELE</description>
