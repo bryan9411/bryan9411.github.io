@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 31 Mar 2024 12:43:25 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 16:47:16 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Image</title>
+      <link>https://bryan9411.github.io/posts/docker-02/</link>
+      <pubDate>Mon, 01 Apr 2024 16:47:16 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/docker-02/</guid>
+      <description>Docker Hub Docker hub是 Docker 官方維護了一個公共倉庫，裡面放置大多數的 image 檔案，像是如果需要 ubuntu 或 Linux 環境，都可以在這網站下載到相關 image 下載 Image 啟動 docker 在 Docker hub 網站註冊</description>
+    </item>
+    
     <item>
       <title>Docker 介紹</title>
       <link>https://bryan9411.github.io/posts/docker-01/</link>
@@ -31,7 +40,7 @@
     </item>
     
     <item>
-      <title>Git: Fetch vs Pull </title>
+      <title>Fetch vs Pull </title>
       <link>https://bryan9411.github.io/posts/git-03/</link>
       <pubDate>Sun, 12 Nov 2023 17:24:15 +0800</pubDate>
       
@@ -49,7 +58,7 @@
     </item>
     
     <item>
-      <title>Git: 修改提交與重置</title>
+      <title>如何修改提交與重置</title>
       <link>https://bryan9411.github.io/posts/git-02/</link>
       <pubDate>Wed, 08 Nov 2023 21:17:32 +0800</pubDate>
       
@@ -58,7 +67,7 @@
     </item>
     
     <item>
-      <title>Git: 基本指令</title>
+      <title>Git 基本指令</title>
       <link>https://bryan9411.github.io/posts/git-01/</link>
       <pubDate>Tue, 07 Nov 2023 21:48:41 +0800</pubDate>
       
