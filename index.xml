@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Apr 2024 16:47:16 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 19:52:53 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker container</title>
+      <link>https://bryan9411.github.io/posts/docker-03/</link>
+      <pubDate>Fri, 05 Apr 2024 19:52:53 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/docker-03/</guid>
+      <description>docker run 建立並執行一個新的容器 後面可帶參數： -d: 在背景執行 -e: 設置環境變數 -p: 將 port 映射 (host port:container port) -it: 交互式模式 &amp;ndash;name: 命名容器名稱 &amp;ndash;restart: 重新啟動容器 docker ps 顯示目前正在執</description>
+    </item>
+    
     <item>
       <title>Docker Image</title>
       <link>https://bryan9411.github.io/posts/docker-02/</link>
