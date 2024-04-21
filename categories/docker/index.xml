@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 05 Apr 2024 19:52:53 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 14:33:11 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerfile</title>
+      <link>https://bryan9411.github.io/posts/docker-04/</link>
+      <pubDate>Sun, 07 Apr 2024 14:33:11 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/docker-04/</guid>
+      <description>什麼是 Dockerfile？ Dockerfile 包含了一系列的指令和配置，用於自動化生成 Docker Image Dockerfile，可以定義容器的環境和配置，可以讓 Image 的建立和部</description>
+    </item>
+    
     <item>
       <title>Docker container</title>
       <link>https://bryan9411.github.io/posts/docker-03/</link>
