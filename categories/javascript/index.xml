@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on Bryan Blog</title>
+    <link>https://bryan9411.github.io/categories/javascript/</link>
+    <description>Recent content in JavaScript on Bryan Blog</description>
+    <image>
+      <title>Bryan Blog</title>
+      <url>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 20 Sep 2022 22:24:48 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Closure(閉包)</title>
+      <link>https://bryan9411.github.io/posts/javascript-03/</link>
+      <pubDate>Tue, 20 Sep 2022 22:24:48 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-03/</guid>
+      <description>什麼是 Closure(閉包) ? 當你在一個函數中定義了另一個函式，即使外部函數已經執行完畢，這個內部函數還是能夠訪問外部函數中的變數 function outer () { var</description>
+    </item>
+    
+    <item>
+      <title>hoisting（提升)</title>
+      <link>https://bryan9411.github.io/posts/javascript-02/</link>
+      <pubDate>Mon, 12 Sep 2022 22:19:53 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-02/</guid>
+      <description>什麼是 hoisting（提升）？ 在 vsCode 打上程式碼，如果沒有賦值會顯示錯誤如下 console.log(a) // a is not defined 但是如果給它賦值，就會變成有 undefined 而非報錯 console.log(a) // undefined var a = 10 上</description>
+    </item>
+    
+    <item>
+      <title>JS 變數底層運作</title>
+      <link>https://bryan9411.github.io/posts/javascript-01/</link>
+      <pubDate>Thu, 08 Sep 2022 22:39:26 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-01/</guid>
+      <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a); // 10 a = 20 console.log(a); // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
+    </item>
+    
+  </channel>
+</rss>
