@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 07 Apr 2024 14:33:11 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 21:12:50 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS物件函數</title>
+      <link>https://bryan9411.github.io/posts/javascript-04/</link>
+      <pubDate>Sun, 19 May 2024 21:12:50 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-04/</guid>
+      <description>假如從後端拿到的 member 資料為以下格式： member = { name: &amp;#39;Bryan&amp;#39;, age: 30, gender: &amp;#39;male&amp;#39; } 要拿到該物件底下所有 item 的 key // 返回一個包含物件所有屬性名稱的陣列 const keys = Object.keys(member) console.log(keys) // [&amp;#39;name&amp;#39;, &amp;#39;age&amp;#39;, &amp;#39;gender&amp;#39;] 要拿到</description>
+    </item>
+    
     <item>
       <title>Dockerfile</title>
       <link>https://bryan9411.github.io/posts/docker-04/</link>
