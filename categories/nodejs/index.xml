@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nodejs on Bryan Blog</title>
+    <link>https://bryan9411.github.io/categories/nodejs/</link>
+    <description>Recent content in Nodejs on Bryan Blog</description>
+    <image>
+      <title>Bryan Blog</title>
+      <url>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 22 May 2024 14:10:56 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼 pnpm 速度快於 yarn ?</title>
+      <link>https://bryan9411.github.io/posts/node-01/</link>
+      <pubDate>Wed, 22 May 2024 14:10:56 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/node-01/</guid>
+      <description>身為前端開發者一定聽過 npm 以及 yarn 這兩項套件管理工具，但其實還有一個叫 pnpm 的套件管理工具 最近公司新專案在前端開發中，從 yarn 轉向使用 pnpm，這篇就來</description>
+    </item>
+    
+  </channel>
+</rss>

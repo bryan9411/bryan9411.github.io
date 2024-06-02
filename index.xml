@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 May 2024 21:12:50 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 May 2024 14:10:56 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼 pnpm 速度快於 yarn ?</title>
+      <link>https://bryan9411.github.io/posts/node-01/</link>
+      <pubDate>Wed, 22 May 2024 14:10:56 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/node-01/</guid>
+      <description>身為前端開發者一定聽過 npm 以及 yarn 這兩項套件管理工具，但其實還有一個叫 pnpm 的套件管理工具 最近公司新專案在前端開發中，從 yarn 轉向使用 pnpm，這篇就來</description>
+    </item>
+    
     <item>
       <title>JS物件函數</title>
       <link>https://bryan9411.github.io/posts/javascript-04/</link>
@@ -128,6 +137,7 @@
       <guid>https://bryan9411.github.io/posts/javascript-01/</guid>
       <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a); // 10 a = 20 console.log(a); // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
     </item>
+    
     
   </channel>
 </rss>
