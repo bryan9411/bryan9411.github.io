@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>前端效能優化 on Bryan Blog</title>
+    <link>https://bryan9411.github.io/tags/%E5%89%8D%E7%AB%AF%E6%95%88%E8%83%BD%E5%84%AA%E5%8C%96/</link>
+    <description>Recent content in 前端效能優化 on Bryan Blog</description>
+    <image>
+      <title>Bryan Blog</title>
+      <url>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 01 Jun 2024 19:38:04 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/tags/%E5%89%8D%E7%AB%AF%E6%95%88%E8%83%BD%E5%84%AA%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debounce(防抖)</title>
+      <link>https://bryan9411.github.io/posts/javascript-05/</link>
+      <pubDate>Sat, 01 Jun 2024 19:38:04 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-05/</guid>
+      <description>防抖（Debounce）用於限制連續觸發的事件的執行頻率，當一個事件被觸發後 debounce 會延遲一段時間，如果在這段時間內再次觸發該事件，則會重新計時。</description>
+    </item>
+    
+  </channel>
+</rss>
