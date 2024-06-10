@@ -11,50 +11,59 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Jun 2024 19:38:04 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Apr 2024 19:38:04 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debounce(防抖)</title>
-      <link>https://bryan9411.github.io/posts/javascript-05/</link>
-      <pubDate>Sat, 01 Jun 2024 19:38:04 +0800</pubDate>
+      <link>https://bryan9411.github.io/posts/javascript-06/</link>
+      <pubDate>Wed, 10 Apr 2024 19:38:04 +0800</pubDate>
       
-      <guid>https://bryan9411.github.io/posts/javascript-05/</guid>
+      <guid>https://bryan9411.github.io/posts/javascript-06/</guid>
       <description>防抖（Debounce）用於限制連續觸發的事件的執行頻率，當一個事件被觸發後 debounce 會延遲一段時間，如果在這段時間內再次觸發該事件，則會重新計時。</description>
     </item>
     
     <item>
-      <title>JS物件函數</title>
-      <link>https://bryan9411.github.io/posts/javascript-04/</link>
-      <pubDate>Sun, 19 May 2024 21:12:50 +0800</pubDate>
-      
-      <guid>https://bryan9411.github.io/posts/javascript-04/</guid>
-      <description>假如從後端拿到的 member 資料為以下格式： member = { name: &amp;#39;Bryan&amp;#39;, age: 30, gender: &amp;#39;male&amp;#39; } 要拿到該物件底下所有 item 的 key // 返回一個包含物件所有屬性名稱的陣列 const keys = Object.keys(member) console.log(keys) // [&amp;#39;name&amp;#39;, &amp;#39;age&amp;#39;, &amp;#39;gender&amp;#39;] 要拿到</description>
-    </item>
-    
-    <item>
       <title>Closure(閉包)</title>
-      <link>https://bryan9411.github.io/posts/javascript-03/</link>
-      <pubDate>Tue, 20 Sep 2022 22:24:48 +0800</pubDate>
+      <link>https://bryan9411.github.io/posts/javascript-05/</link>
+      <pubDate>Wed, 20 Mar 2024 22:24:48 +0800</pubDate>
       
-      <guid>https://bryan9411.github.io/posts/javascript-03/</guid>
+      <guid>https://bryan9411.github.io/posts/javascript-05/</guid>
       <description>什麼是 Closure(閉包) ? 當你在一個函數中定義了另一個函式，即使外部函數已經執行完畢，這個內部函數還是能夠訪問外部函數中的變數 function outer () { var</description>
     </item>
     
     <item>
       <title>hoisting（提升)</title>
-      <link>https://bryan9411.github.io/posts/javascript-02/</link>
-      <pubDate>Mon, 12 Sep 2022 22:19:53 +0800</pubDate>
+      <link>https://bryan9411.github.io/posts/javascript-04/</link>
+      <pubDate>Mon, 18 Mar 2024 22:19:53 +0800</pubDate>
       
-      <guid>https://bryan9411.github.io/posts/javascript-02/</guid>
+      <guid>https://bryan9411.github.io/posts/javascript-04/</guid>
       <description>什麼是 hoisting（提升）？ 在 vsCode 打上程式碼，如果沒有賦值會顯示錯誤如下 console.log(a) // a is not defined 但是如果給它賦值，就會變成有 undefined 而非報錯 console.log(a) // undefined var a = 10 上</description>
     </item>
     
     <item>
       <title>JS 變數底層運作</title>
+      <link>https://bryan9411.github.io/posts/javascript-03/</link>
+      <pubDate>Thu, 07 Mar 2024 22:39:26 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-03/</guid>
+      <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a) // 10 a = 20 console.log(a) // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
+    </item>
+    
+    <item>
+      <title>JS 物件函數</title>
+      <link>https://bryan9411.github.io/posts/javascript-02/</link>
+      <pubDate>Sat, 22 Oct 2022 21:12:50 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-02/</guid>
+      <description>假如從後端拿到的 member 資料為以下格式： member = { name: &amp;#39;Bryan&amp;#39;, age: 30, gender: &amp;#39;male&amp;#39; } 要拿到該物件底下所有 item 的 key // 返回一個包含物件所有屬性名稱的陣列 const keys = Object.keys(member) console.log(keys) // [&amp;#39;name&amp;#39;, &amp;#39;age&amp;#39;, &amp;#39;gender&amp;#39;] 要拿到</description>
+    </item>
+    
+    <item>
+      <title>JS 字串函數</title>
       <link>https://bryan9411.github.io/posts/javascript-01/</link>
-      <pubDate>Thu, 08 Sep 2022 22:39:26 +0800</pubDate>
+      <pubDate>Mon, 10 Oct 2022 23:36:33 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/javascript-01/</guid>
-      <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a); // 10 a = 20 console.log(a); // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
+      <description>介紹工作上常使用到的字串函數方法 trim 移除字串的開頭和結尾的空白字元 const str = &amp;#39; Hello, World! &amp;#39; const trimStr = str.trim() console.log(trimStr) // &amp;#39;Hello, World!&amp;#39; indexOf 找出指定字串出現位置的 index const str = &amp;#39;Hello, World!&amp;#39; const index = str.indexOf(&amp;#39;World&amp;#39;) console.log(index)</description>
     </item>
     
   </channel>

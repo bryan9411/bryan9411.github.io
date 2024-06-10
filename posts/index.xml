@@ -11,16 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Jun 2024 19:38:04 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Debounce(防抖)</title>
-      <link>https://bryan9411.github.io/posts/javascript-05/</link>
-      <pubDate>Sat, 01 Jun 2024 19:38:04 +0800</pubDate>
-      
-      <guid>https://bryan9411.github.io/posts/javascript-05/</guid>
-      <description>防抖（Debounce）用於限制連續觸發的事件的執行頻率，當一個事件被觸發後 debounce 會延遲一段時間，如果在這段時間內再次觸發該事件，則會重新計時。</description>
-    </item>
-    
+    <lastBuildDate>Wed, 22 May 2024 14:10:56 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>為什麼 pnpm 速度快於 yarn ?</title>
       <link>https://bryan9411.github.io/posts/node-01/</link>
@@ -31,18 +22,54 @@
     </item>
     
     <item>
-      <title>JS物件函數</title>
+      <title>Debounce(防抖)</title>
+      <link>https://bryan9411.github.io/posts/javascript-06/</link>
+      <pubDate>Wed, 10 Apr 2024 19:38:04 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-06/</guid>
+      <description>防抖（Debounce）用於限制連續觸發的事件的執行頻率，當一個事件被觸發後 debounce 會延遲一段時間，如果在這段時間內再次觸發該事件，則會重新計時。</description>
+    </item>
+    
+    <item>
+      <title>Closure(閉包)</title>
+      <link>https://bryan9411.github.io/posts/javascript-05/</link>
+      <pubDate>Wed, 20 Mar 2024 22:24:48 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-05/</guid>
+      <description>什麼是 Closure(閉包) ? 當你在一個函數中定義了另一個函式，即使外部函數已經執行完畢，這個內部函數還是能夠訪問外部函數中的變數 function outer () { var</description>
+    </item>
+    
+    <item>
+      <title>hoisting（提升)</title>
       <link>https://bryan9411.github.io/posts/javascript-04/</link>
-      <pubDate>Sun, 19 May 2024 21:12:50 +0800</pubDate>
+      <pubDate>Mon, 18 Mar 2024 22:19:53 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/javascript-04/</guid>
-      <description>假如從後端拿到的 member 資料為以下格式： member = { name: &amp;#39;Bryan&amp;#39;, age: 30, gender: &amp;#39;male&amp;#39; } 要拿到該物件底下所有 item 的 key // 返回一個包含物件所有屬性名稱的陣列 const keys = Object.keys(member) console.log(keys) // [&amp;#39;name&amp;#39;, &amp;#39;age&amp;#39;, &amp;#39;gender&amp;#39;] 要拿到</description>
+      <description>什麼是 hoisting（提升）？ 在 vsCode 打上程式碼，如果沒有賦值會顯示錯誤如下 console.log(a) // a is not defined 但是如果給它賦值，就會變成有 undefined 而非報錯 console.log(a) // undefined var a = 10 上</description>
+    </item>
+    
+    <item>
+      <title>JS 變數底層運作</title>
+      <link>https://bryan9411.github.io/posts/javascript-03/</link>
+      <pubDate>Thu, 07 Mar 2024 22:39:26 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-03/</guid>
+      <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a) // 10 a = 20 console.log(a) // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
+    </item>
+    
+    <item>
+      <title>GraphQL 與 RESTful API 差異</title>
+      <link>https://bryan9411.github.io/posts/graphql-01/</link>
+      <pubDate>Tue, 20 Jun 2023 21:49:00 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/graphql-01/</guid>
+      <description>再介紹 GraphQL 之前要先介紹一下過去我們常用串 api 的方式 RESTful API。 RESTful API RESTful API 它是一種架構風格，使用標準的 HTTP 方法 ，例如：GET、POST、PUT、DELE</description>
     </item>
     
     <item>
       <title>Dockerfile</title>
       <link>https://bryan9411.github.io/posts/docker-04/</link>
-      <pubDate>Sun, 07 Apr 2024 14:33:11 +0800</pubDate>
+      <pubDate>Thu, 20 Apr 2023 14:33:11 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/docker-04/</guid>
       <description>什麼是 Dockerfile？ Dockerfile 包含了一系列的指令和配置，用於自動化生成 Docker Image Dockerfile，可以定義容器的環境和配置，可以讓 Image 的建立和部</description>
@@ -51,7 +78,7 @@
     <item>
       <title>Docker container</title>
       <link>https://bryan9411.github.io/posts/docker-03/</link>
-      <pubDate>Fri, 05 Apr 2024 19:52:53 +0800</pubDate>
+      <pubDate>Sat, 15 Apr 2023 19:52:53 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/docker-03/</guid>
       <description>docker run 建立並執行一個新的容器 後面可帶參數： -d: 在背景執行 -e: 設置環境變數 -p: 將 port 映射 (host port:container port) -it: 交互式模式 &amp;ndash;name: 命名容器名稱 &amp;ndash;restart: 重新啟動容器 docker ps 顯示目前正在執</description>
@@ -60,7 +87,7 @@
     <item>
       <title>Docker Image</title>
       <link>https://bryan9411.github.io/posts/docker-02/</link>
-      <pubDate>Mon, 01 Apr 2024 16:47:16 +0800</pubDate>
+      <pubDate>Wed, 12 Apr 2023 16:47:16 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/docker-02/</guid>
       <description>Docker Hub Docker hub是 Docker 官方維護了一個公共倉庫，裡面放置大多數的 image 檔案，像是如果需要 ubuntu 或 Linux 環境，都可以在這網站下載到相關 image 下載 Image 啟動 docker 在 Docker hub 網站註冊</description>
@@ -69,25 +96,34 @@
     <item>
       <title>Docker 介紹</title>
       <link>https://bryan9411.github.io/posts/docker-01/</link>
-      <pubDate>Sun, 31 Mar 2024 12:43:25 +0800</pubDate>
+      <pubDate>Wed, 05 Apr 2023 12:43:25 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/docker-01/</guid>
       <description>什麼是 Docker ? Docker 是一個開源的容器化平台，由 Dockerfile 、 Docker Image 、 Docker Container 三者組成 可將應用程式及其相關環境打包成一個獨立的容器(Container)，確保應用程式</description>
     </item>
     
     <item>
-      <title>GraphQL 與 RESTful API 差異</title>
-      <link>https://bryan9411.github.io/posts/graphql-01/</link>
-      <pubDate>Mon, 20 Nov 2023 21:49:00 +0800</pubDate>
+      <title>JS 物件函數</title>
+      <link>https://bryan9411.github.io/posts/javascript-02/</link>
+      <pubDate>Sat, 22 Oct 2022 21:12:50 +0800</pubDate>
       
-      <guid>https://bryan9411.github.io/posts/graphql-01/</guid>
-      <description>再介紹 GraphQL 之前要先介紹一下過去我們常用串 api 的方式 RESTful API。 RESTful API RESTful API 它是一種架構風格，使用標準的 HTTP 方法 ，例如：GET、POST、PUT、DELE</description>
+      <guid>https://bryan9411.github.io/posts/javascript-02/</guid>
+      <description>假如從後端拿到的 member 資料為以下格式： member = { name: &amp;#39;Bryan&amp;#39;, age: 30, gender: &amp;#39;male&amp;#39; } 要拿到該物件底下所有 item 的 key // 返回一個包含物件所有屬性名稱的陣列 const keys = Object.keys(member) console.log(keys) // [&amp;#39;name&amp;#39;, &amp;#39;age&amp;#39;, &amp;#39;gender&amp;#39;] 要拿到</description>
+    </item>
+    
+    <item>
+      <title>JS 字串函數</title>
+      <link>https://bryan9411.github.io/posts/javascript-01/</link>
+      <pubDate>Mon, 10 Oct 2022 23:36:33 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/javascript-01/</guid>
+      <description>介紹工作上常使用到的字串函數方法 trim 移除字串的開頭和結尾的空白字元 const str = &amp;#39; Hello, World! &amp;#39; const trimStr = str.trim() console.log(trimStr) // &amp;#39;Hello, World!&amp;#39; indexOf 找出指定字串出現位置的 index const str = &amp;#39;Hello, World!&amp;#39; const index = str.indexOf(&amp;#39;World&amp;#39;) console.log(index)</description>
     </item>
     
     <item>
       <title>Fetch vs Pull </title>
       <link>https://bryan9411.github.io/posts/git-03/</link>
-      <pubDate>Sun, 12 Nov 2023 17:24:15 +0800</pubDate>
+      <pubDate>Sat, 10 Sep 2022 17:24:15 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-03/</guid>
       <description>fetch vs pull 指令 說明 fetch 從遠端下載最新的資料，但不合併到本地分支。 pull 從遠端下載最新的資料並合併到本地分支，其實就是執行 git fetch 和 git merge 兩個指令的組合。</description>
@@ -96,7 +132,7 @@
     <item>
       <title>如何修改提交與重置</title>
       <link>https://bryan9411.github.io/posts/git-02/</link>
-      <pubDate>Wed, 08 Nov 2023 21:17:32 +0800</pubDate>
+      <pubDate>Thu, 08 Sep 2022 21:17:32 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-02/</guid>
       <description>再 Git: 基本指令 介紹到一些基本 git 指令，但還有更多實用的指令 👇 修改提交(amend) git commit --amend 如果這次修改只是增加註解或者刪除多餘 log 之類的，並沒有其他</description>
@@ -105,37 +141,10 @@
     <item>
       <title>Git 基本指令</title>
       <link>https://bryan9411.github.io/posts/git-01/</link>
-      <pubDate>Tue, 07 Nov 2023 21:48:41 +0800</pubDate>
+      <pubDate>Wed, 07 Sep 2022 21:48:41 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-01/</guid>
       <description>Git 它是一個版本控制系統，可以幫助你追蹤程式碼變化、管理版本、合作開發，是團隊協作中不可或缺的工具之一。 以下是一些基本的 git 指令與使用情境 👇 init 當</description>
-    </item>
-    
-    <item>
-      <title>Closure(閉包)</title>
-      <link>https://bryan9411.github.io/posts/javascript-03/</link>
-      <pubDate>Tue, 20 Sep 2022 22:24:48 +0800</pubDate>
-      
-      <guid>https://bryan9411.github.io/posts/javascript-03/</guid>
-      <description>什麼是 Closure(閉包) ? 當你在一個函數中定義了另一個函式，即使外部函數已經執行完畢，這個內部函數還是能夠訪問外部函數中的變數 function outer () { var</description>
-    </item>
-    
-    <item>
-      <title>hoisting（提升)</title>
-      <link>https://bryan9411.github.io/posts/javascript-02/</link>
-      <pubDate>Mon, 12 Sep 2022 22:19:53 +0800</pubDate>
-      
-      <guid>https://bryan9411.github.io/posts/javascript-02/</guid>
-      <description>什麼是 hoisting（提升）？ 在 vsCode 打上程式碼，如果沒有賦值會顯示錯誤如下 console.log(a) // a is not defined 但是如果給它賦值，就會變成有 undefined 而非報錯 console.log(a) // undefined var a = 10 上</description>
-    </item>
-    
-    <item>
-      <title>JS 變數底層運作</title>
-      <link>https://bryan9411.github.io/posts/javascript-01/</link>
-      <pubDate>Thu, 08 Sep 2022 22:39:26 +0800</pubDate>
-      
-      <guid>https://bryan9411.github.io/posts/javascript-01/</guid>
-      <description>一般的重新賦值，只要修改值就會變更 var a = 10 console.log(a); // 10 a = 20 console.log(a); // 20 但是物件狀態就不一樣了 var objA = { number: 10 } var objB = objA console.log(objA, objB) // { number: 10 } { number: 10 } objA.number = 20 console.log(objA, objB) // {</description>
     </item>
     
   </channel>

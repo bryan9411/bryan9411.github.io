@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 12 Nov 2023 17:24:15 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/git-%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 17:24:15 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/git-%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fetch vs Pull </title>
       <link>https://bryan9411.github.io/posts/git-03/</link>
-      <pubDate>Sun, 12 Nov 2023 17:24:15 +0800</pubDate>
+      <pubDate>Sat, 10 Sep 2022 17:24:15 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-03/</guid>
       <description>fetch vs pull 指令 說明 fetch 從遠端下載最新的資料，但不合併到本地分支。 pull 從遠端下載最新的資料並合併到本地分支，其實就是執行 git fetch 和 git merge 兩個指令的組合。</description>
@@ -24,7 +24,7 @@
     <item>
       <title>如何修改提交與重置</title>
       <link>https://bryan9411.github.io/posts/git-02/</link>
-      <pubDate>Wed, 08 Nov 2023 21:17:32 +0800</pubDate>
+      <pubDate>Thu, 08 Sep 2022 21:17:32 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-02/</guid>
       <description>再 Git: 基本指令 介紹到一些基本 git 指令，但還有更多實用的指令 👇 修改提交(amend) git commit --amend 如果這次修改只是增加註解或者刪除多餘 log 之類的，並沒有其他</description>
@@ -33,7 +33,7 @@
     <item>
       <title>Git 基本指令</title>
       <link>https://bryan9411.github.io/posts/git-01/</link>
-      <pubDate>Tue, 07 Nov 2023 21:48:41 +0800</pubDate>
+      <pubDate>Wed, 07 Sep 2022 21:48:41 +0800</pubDate>
       
       <guid>https://bryan9411.github.io/posts/git-01/</guid>
       <description>Git 它是一個版本控制系統，可以幫助你追蹤程式碼變化、管理版本、合作開發，是團隊協作中不可或缺的工具之一。 以下是一些基本的 git 指令與使用情境 👇 init 當</description>
