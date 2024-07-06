@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>區塊鏈 on Bryan Blog</title>
+    <link>https://bryan9411.github.io/tags/%E5%8D%80%E5%A1%8A%E9%8F%88/</link>
+    <description>Recent content in 區塊鏈 on Bryan Blog</description>
+    <image>
+      <title>Bryan Blog</title>
+      <url>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bryan9411.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 02 Jul 2024 21:55:26 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/tags/%E5%8D%80%E5%A1%8A%E9%8F%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什麼是 Web3 ?</title>
+      <link>https://bryan9411.github.io/posts/blockchain-01/</link>
+      <pubDate>Tue, 02 Jul 2024 21:55:26 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/blockchain-01/</guid>
+      <description>再談 WEB3.0 前先來談談我們熟悉的 WEB2.0 Web2 以社群網路的概念為核心，例如我們熟知的 部落格、Instragram、維基百科等等。使用者可以使用搜尋功能、新增</description>
+    </item>
+    
+  </channel>
+</rss>
