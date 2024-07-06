@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 02 Jul 2024 21:55:26 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/%E5%8D%80%E5%A1%8A%E9%8F%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 17:50:40 +0800</lastBuildDate><atom:link href="https://bryan9411.github.io/categories/%E5%8D%80%E5%A1%8A%E9%8F%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EVM 與智能合約</title>
+      <link>https://bryan9411.github.io/posts/blockchain-02/</link>
+      <pubDate>Sat, 06 Jul 2024 17:50:40 +0800</pubDate>
+      
+      <guid>https://bryan9411.github.io/posts/blockchain-02/</guid>
+      <description>EVM EVM 是 Ethereum Virtual Machine 的縮寫，也就是以太坊虛擬機。它是以太坊區塊鏈網路中的一部分，負責執行智能合約的程式碼 智能合約 智能合約是一種自動執行合約，其合約是</description>
+    </item>
+    
     <item>
       <title>什麼是 Web3 ?</title>
       <link>https://bryan9411.github.io/posts/blockchain-01/</link>
